@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+/* FOR VERTICAL ALIGN */
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+
+/* MY CLASS FOR BIG LINK */
+.home-logo {
+    font-size: 48px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color:rgb(85, 85, 85);
+    font-family:Montserrat; 
+}
+
+/* MY CLASS FOR BIG LINK */
+.nav-bar-text {
+    font-size: 20px;
+    text-decoration: wavy;
+    /* color:rgb(255, 221, 182); */
+    color:rgb(255, 193, 174);
+    /* color:rgb(252, 180, 98); */
+}
