@@ -30,17 +30,33 @@ nav li {
 table {
     border-collapse: collapse;
     width: 80%;
-    margin: 20px auto;
+    margin: auto;
+    margin-top: 10vh;
 }
 
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+
+    color: white;
+    font-weight: bold;
+    background-color: #333;
+    padding-top: 2%;
+    
 }
+/* td:empty{
+    background-color: rgb(49, 52, 49);
+    background-color: rgb(42, 51, 42);
+    background-color: rgb(42, 63, 42);
+}*/
+
 
 th {
-    background-color: #f2f2f2;
+    background-color: #222;
+    /* background-color: #f2f2f2; */
+
+    color: white;
 }
 
 footer {
@@ -58,17 +74,77 @@ footer {
 
 
 /* FOR VERTICAL ALIGN */
-div{
+.div-vert{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 75vh;
+    align-items: end;
+    height: 40vh;
+    
 }
+
+
+/* big rectange in about.html */
+.rounded-messangers-frame {
+    width: 50%;
+    height: 100px;
+    border-radius: 20px; /* Это свойство задаёт радиус скругления углов */
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 auto;
+    background-color: #444;
+    align-items: center;
+    align-content: center;
+}
+
+.rounded-messangers-items {
+    width: 15%;
+    height: 60px;
+    background-color: #3498db;
+    border-radius: 20px; /* Это свойство задаёт радиус скругления углов */
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/*CHAT GPT RECTANGLES*/
+.outer-rectangle {
+    margin: 0 auto;
+    width: 40%;
+    height: 2vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 20px;
+}
+.inner-rectangle {
+    width: 150px;
+    height: 50px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc1ae;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: wavy;
+    font-family: Montserrat;
+}
+
+
+
 
 
 /* MY CLASS FOR BIG LINK */
 .home-logo {
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -81,6 +157,20 @@ div{
     font-size: 20px;
     text-decoration: wavy;
     /* color:rgb(255, 221, 182); */
-    color:rgb(255, 193, 174);
+    color:#ffc1ae;
     /* color:rgb(252, 180, 98); */
 }
+
+
+
+.RLtableCols {
+    background-color: #222;
+}
+
+
+
+
+/* TODO
+сделать что бы время в рассписании было кликабелным и кидало на киевское время
+
+ну или писать в подсказке что это киевское время*/
