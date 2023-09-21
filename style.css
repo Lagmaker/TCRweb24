@@ -10,7 +10,7 @@
 /* SRC FONT */
 @font-face {
     font-family: 'Montserrat';
-    src: url('/assets/MNTSB.TTF') format('truetype');
+    src: url('assets/MNTSB.TTF') format('truetype');
 }
 
 
