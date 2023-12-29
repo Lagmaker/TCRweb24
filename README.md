@@ -1,14 +1,11 @@
 # lagmaker.github.io
-web tasks for second course 
 
-follow this link to visit the website https://lagmaker.github.io/
+web tasks for second course
 
-
-
-
-
+follow this link to visit the website <https://lagmaker.github.io/>
 
 ## Forgot how to push?
+
 **here you go bro:**
 
 *select all elements*
