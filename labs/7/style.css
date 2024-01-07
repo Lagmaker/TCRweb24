@@ -69,7 +69,9 @@ body {
 .container__snow {
 	position: relative;
 	display: flex;
+	justify-content: space-between; 
 }
+  
 
 .container__snow-flake {
 	position: relative;
