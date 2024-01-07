@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../style.css" />
+		<title>Форма вводу даних</title>
+	</head>
+	<body>
+		<main>
+			<form action="https://webhook.site/f341fd15-9e7d-41d6-b79c-4a2795d7cef7" method="get">
+				<label for="first_name">Ім'я:&nbsp;</label>
+				<input type="text" id="first_name" name="first_name" autocomplete="off" required /><br />
+
+				<label for="last_name">Прізвище:</label>
+				<input type="text" id="last_name" name="last_name" autocomplete="off" required /><br />
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" autocomplete="off" required /><br />
+
+				<label for="password">Пароль:</label>
+				<input type="password" id="password" name="password" required /><br />
+
+				<label for="confirm_password">Підтвердження паролю:</label>
+				<input type="password" id="confirm_password" name="confirm_password" required /><br />
+
+				<label for="birthdate">Дата народження:</label>
+				<input type="date" id="birthdate" name="birthdate" /><br />
+
+				<label for="gender">Стать:</label>
+				<select id="gender" name="gender">
+					<option value="male">Чоловік</option>
+					<option value="female">Жінка</option>
+					<option value="other">Інше</option></select
+				><br />
+
+				<input type="submit" value="Зареєструватися" />
+			</form>
+		</main>
+	</body>
+</html>
