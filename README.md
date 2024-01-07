@@ -14,3 +14,7 @@ web tasks for second course
 
 *select brunch and push*
 `git push -u origin main`
+
+## FAQ
+
+1. In **Lab6** use **ENG** keyboard layout to make it work properly
